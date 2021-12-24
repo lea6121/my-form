@@ -63,7 +63,6 @@ function App() {
       formIsValid = false
       errors['howToKnowMsg'] = '請填寫內容！'
     }
-
     setErrors(errors)
     return formIsValid
   }
